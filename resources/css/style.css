@@ -1,8 +1,27 @@
 body {
     background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1 {
+.headers {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header, footer{
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+}
+
+#downloadLink {
+    color: rgb(190, 255, 248);
+}
+
+h2 + p {
+    color: gray;
+    text-align: center;
 }
